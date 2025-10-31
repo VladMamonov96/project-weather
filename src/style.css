@@ -1,0 +1,29 @@
+:root {
+    --font: "Montserrat";
+    --color-primary: #fff;
+    --color-primary-inverted: #000;
+    --color-bg: #343D4B;
+    --color-text-placeholder: #343D4B;
+    --color-bg-card: #272E37;
+    --color-bg-main: #222831;
+    --grabient: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
+    --grabient-inverted: linear-gradient(256deg, rgba(144, 217, 224, 0.90) 9.04%, rgba(84, 96, 230, 0.90) 92.2%);
+}
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    color:  var(--color-primary);
+    background: var(--color-bg);
+    font-family: var(--font),sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+    margin: 0;
+}
